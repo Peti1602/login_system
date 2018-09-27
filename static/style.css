@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+body {
+    background: #b0b7bc;
+}
+
+div .row {
+    height: 200px;
+}
+
+div .head {
+    height: 25%;
+}
+
+div .body {
+    height: 50%;
+    padding: 0;
+}
+
+ul li {
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+ul li a.blueWord {
+    color: #002244;
+    text-align: left;
+    padding: 0;
+}
+
+div .blue {
+    background: #002244;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+div .regrow{
+    height: 50px;
+    padding: 0px 50px;
+    text-align: right;
+}
+
+div .regrowWhite{
+    height: 50px;
+    padding: 0px 50px;
+    text-align: left;
+}
+
+
+div p.word {
+    line-height: normal;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+div p.word2 {
+    line-height: normal;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+div .white {
+    background: white;
+    height: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#loginBtn {
+    color: white;
+    background: #002244;
+    border-color: #002244;
+}
+
+#loginBtn:hover {
+    color: #002244;
+    background: #b0b7bc;
+    border-color: #002244;
+}
