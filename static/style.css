@@ -59,6 +59,7 @@ div p.word {
     font-size: 50px;
     font-weight: bold;
     margin: 0;
+    text-shadow: -1px 0 #c60c30, 0 1px #c60c30, 1px 0 #c60c30, 0 -1px #c60c30;
 }
 
 div p.word2 {
@@ -86,4 +87,22 @@ div .white {
     color: #002244;
     background: #b0b7bc;
     border-color: #002244;
+}
+
+div .probaDiv {
+    margin: 0 50px;
+}
+
+div p.title {
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form p.titlePos {
+    margin: 10px 10px 10px 10px;
+    width: 150px;
 }

@@ -84,8 +84,8 @@
     <schema id="21" parent="12" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2018-09-25.21:39:12.796</IntrospectionTimestamp>
-      <IntrospectionStateNumber>121773</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-09-29.22:42:54.306</IntrospectionTimestamp>
+      <IntrospectionStateNumber>121775</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -147,18 +147,18 @@
       <StateNumber>121773</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="33" parent="29" name="firstName">
+    <column id="33" parent="29" name="firstname">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>121773</StateNumber>
+      <StateNumber>121774</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="34" parent="29" name="lastName">
+    <column id="34" parent="29" name="lastname">
       <Position>5</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>121773</StateNumber>
+      <StateNumber>121775</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="35" parent="29" name="users_pk">
