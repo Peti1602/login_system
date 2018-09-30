@@ -46,10 +46,46 @@ div .regrow{
     text-align: right;
 }
 
+div .num{
+    padding-top: 100px;
+}
+
+div .name{
+    padding-top: 100px;
+}
+
+div .rope{
+    padding-top: 100px;
+}
+
+div .city{
+    padding-top: 100px;
+}
+
+div .team{
+    padding-top: 30px;
+}
+
 div .regrowWhite{
     height: 50px;
     padding: 0px 50px;
     text-align: left;
+}
+
+div .logEmail{
+    padding-top: 200px;
+}
+
+div .logPwd{
+    padding-top: 50px;
+}
+
+div .logBtn{
+    padding-top: 50px;
+}
+
+div .forRegLink{
+    padding-top: 100px;
 }
 
 
@@ -59,7 +95,7 @@ div p.word {
     font-size: 50px;
     font-weight: bold;
     margin: 0;
-    text-shadow: -1px 0 #c60c30, 0 1px #c60c30, 1px 0 #c60c30, 0 -1px #c60c30;
+    text-shadow: -2px 0 #c60c30, 0 2px #c60c30, 2px 0 #c60c30, 0 -2px #c60c30;
 }
 
 div p.word2 {
@@ -105,4 +141,9 @@ div p.title {
 form p.titlePos {
     margin: 10px 10px 10px 10px;
     width: 150px;
+}
+
+.danger {
+    background: #c60c30;
+    color: white;
 }

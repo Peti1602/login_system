@@ -19,6 +19,9 @@ function registration () {
             xhttp.onload = function () {
                 if (this.responseText === "bad email"){
                     console.log("there is already email")
+                    let dangerBtn = document.getElementById("regEmail");
+                    let cell = dangerBtn.previousElementSibling;
+                    cell.classList.add("danger");
                 } else if (this.responseText === "fine"){
                     console.log("registration is ok")
                 } else {
